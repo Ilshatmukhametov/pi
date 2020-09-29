@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-color: Lavender;
+    color: black;
+    font-family: "Times New Roman";
+    background-image: url(images/Wall.jpg), url(images/Wall.jpg);
+    background-position: left, right;
+    background-repeat: repeat-y, repeat-y;
+}
+.wrap {
+    height: 2000px;
+}
+header {
+    background-color: DarkOrchid;
+    color: DarkViolet;
+    font-family: "Century Schoolbook";
+}
+main {
+    padding: 10px 20%;
+}
+h1 {
+    width: 100%;
+    color: #222;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: YS Text,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: Khaki;
+}
+a:hover {
+    color: White;
+}
+.navbar {
+    width: 100%;
+    background-color: SlateBlue;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    margin: 15px;
+    text-decoration-line: none;
+    color: red;
+}
+.p1 {
+    font-family: "Comic Sans MS";
+    padding-left: 5px;
+    line-height: 2em;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+.p2 {
+    font-family: "Arial Narrow";
+    padding-left: 15px;
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: justify;
+}
+.p3 {
+    font-family: "Ebrima";
+    padding-left: 55px;
+    line-height: 3em;
+    font-style: oblique;
+    font-size: 16px;
+    text-align: right;
+}
+.p4 {
+    font-family: "Georgia";
+    padding-left: 10px;
+    line-height: 1.5em;
+    font-size: 15px;
+ }
